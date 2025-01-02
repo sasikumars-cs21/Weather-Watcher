@@ -46,7 +46,7 @@ function App() {
       muted
       className="fixed top-0 left-0 w-full h-full object-cover -z-10"
     >
-      <source src="./public/videos/bg-1.mp4" type="video/mp4" />
+      <source src="./public/videos/bg-3.mp4" type="video/mp4" />
     </video>
     <div className={`min-h-screen  ${theme.gradient} p-4 transition-all duration-500`}>
       <div className="max-w-4xl mx-auto pt-10">
