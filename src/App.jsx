@@ -40,14 +40,15 @@ function App() {
   return (
     <>
     {/* Background Video */}
-    <video
-      autoPlay
-      loop
-      muted
-      className="fixed top-0 left-0 w-full h-full object-cover -z-10"
-    >
-      <source src="./public/videos/bg-3.mp4" type="video/mp4" />
-    </video>
+<video
+  autoPlay
+  loop
+  muted
+  className="fixed top-0 left-0 w-full h-full object-cover -z-10"
+>
+  <source src={`${import.meta.env.BASE_URL}videos/bg-1.mp4`} type="video/mp4" />
+</video>
+
     <div className={`min-h-screen  ${theme.gradient} p-4 transition-all duration-500`}>
       <div className="max-w-4xl mx-auto pt-10">
         <h1 className="text-4xl font-bold text-white text-center mb-8 flex items-center justify-center gap-2">

@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Weather-Watcher/', //  GitHub repository name
+  base: '/Weather-Watcher/', //  GitHub repo
 });
